@@ -109,13 +109,12 @@ st.dataframe(df_prediction_proba,
                ),
                'Gentoo': st.column_config.ProgressColumn(
                  'Gentoo',
-                 format='%f'
+                 format='%f',
                  width='medium',
                  min_value=0,
                  max_value=1
                ),
              }, hide_index=True)
-
 
 
 penguins_species = np.array(['Adelie', 'Chinstrap', 'Gentoo'])
